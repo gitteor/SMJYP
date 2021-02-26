@@ -114,3 +114,26 @@ body {
     border: 0;
     transition: all .2s ease;
   }
+
+  .button01 {
+    width: 24vw;
+    height: 6vh;
+    background-color: #3c3c3c;
+    color: white;
+    border: 0;
+    outline: 0;
+    font-size: 12pt;
+    font-weight: 400;
+    border-radius: 4px;
+  }
+  .button02 {
+    width: 24vw;
+    height: 6vh;
+    background-color: #3c3c3c;
+    color: white;
+    border: 0;
+    outline: 0;
+    font-size: 12pt;
+    font-weight: 400;
+    border-radius: 4px;
+  }
