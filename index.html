@@ -10,12 +10,10 @@
     
     <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <div class="file-upload">
-      <div class="button-container">
-        <button class="button01" type="button" onclick="init()">Start</button>
-        <button class="button02" type="button" onclick="predict()">예측</button>
-      </div>  
-        
-      <button class="file-upload-btn" type="button" onclick="$('.file-upload-input').trigger( 'click' )">이미지 추가</button>
+     
+      <button class="button01" type="button" onclick="init()">Start</button>
+      
+      
 
         
       <div class="image-upload-wrap">
@@ -31,6 +29,10 @@
         </div>
       </div>
     </div>
+    
+    <button class="file-upload-btn" type="button" onclick="$('.file-upload-input').trigger( 'click' )">이미지 추가</button>
+    
+    <button class="button02" type="button" onclick="predict()">검사하기</button>
     
     <div id="webcam-container"></div>
     <div id="label-container"></div>
