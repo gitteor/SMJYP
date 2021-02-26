@@ -6,15 +6,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <button class="button01" type="button" onclick="init()">Start</button>
-        <button class="button02" type="button" onclick="predict()">예측</button>
-    </div>
+
     
     <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <div class="file-upload">
       <button class="file-upload-btn" type="button" onclick="$('.file-upload-input').trigger( 'click' )">이미지 추가</button>
-
+      <div class="container">
+        <button class="button01" type="button" onclick="init()">Start</button>
+        <button class="button02" type="button" onclick="predict()">예측</button>
+      </div>
+        
       <div class="image-upload-wrap">
         <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
         <div class="drag-text">
