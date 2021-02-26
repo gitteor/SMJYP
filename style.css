@@ -5,7 +5,7 @@ body {
   
   .file-upload {
     background-color: #ffffff;
-    width: 600px;
+    width: 84vw;
     margin: 0 auto;
     padding: 20px;
   }
@@ -124,6 +124,8 @@ body {
     border: none;
     padding: 10px;
     border-radius: 4px;
+    border-bottom: 4px solid #2c2c2c;
+    transition: all .2s ease;
     outline: none;
     text-transform: uppercase;
     font-weight: 700;  
@@ -137,6 +139,8 @@ body {
     border: none;
     padding: 10px;
     border-radius: 4px;
+    border-bottom: 4px solid #2c2c2c;
+    transition: all .2s ease;
     outline: none;
     text-transform: uppercase;
     font-weight: 700;  
