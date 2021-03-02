@@ -150,8 +150,8 @@ body {
    font-size : 22pt;    
 }
 
-@import url(https://fonts.googleapis.com/css?family=Roboto:100);
 
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
 body { 
     margin-top: 100px;
     background-color: #137b85;
@@ -181,3 +181,9 @@ h1 {
 @-webkit-keyframes spin {
   to { -webkit-transform: rotate(360deg); }
 }
+
+.blue {background: #5abae6;}
+.red {background: #d34e42;}
+.green {background: #9dbb19;}
+.yellow {background: #f7b358;}
+
