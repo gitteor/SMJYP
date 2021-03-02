@@ -182,8 +182,36 @@ h1 {
   to { -webkit-transform: rotate(360deg); }
 }
 
-.blue {background: #5abae6;}
-.red {background: #d34e42;}
-.green {background: #9dbb19;}
-.yellow {background: #f7b358;}
+.blue {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: #5abae6;
+}
+.red {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: #d34e42;
+}
+.green {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: #9dbb19;
+}
+.yellow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: #f7b358;
+}
 
