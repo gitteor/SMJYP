@@ -10,8 +10,7 @@
     
     <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <div class="file-upload">
-     
-      <button class="button01" type="button" onclick="init()">AI 활성화</button>
+    
    
       <div class="image-upload-wrap">
         <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
@@ -27,8 +26,7 @@
       </div>
         
       <button class="file-upload-btn" type="button" onclick="$('.file-upload-input').trigger( 'click' )">이미지 추가</button>
-    
-      <button class="button02" type="button" onclick="predict()">검사하기</button>
+   
         
       <div class="label-container" id="label-container"></div>
     </div>
@@ -109,9 +107,12 @@
 
           $('.image-title').html(input.files[0].name);
         };
-
         reader.readAsDataURL(input.files[0]);
-
+          
+        init().then(()=>{
+            predict();
+        });
+        
       } else {
         removeUpload();
       }
