@@ -72,6 +72,7 @@ body {
 .image-title-wrap {
     padding: 0 15px 15px 15px;
     color: #222;
+    text-align: center;
 }
   
 .drag-text {
@@ -84,10 +85,11 @@ body {
 }
   
 .file-upload-image {
-    max-height: 200px;
-    max-width: 200px;
+    max-height: 400px;
+    max-width: 400px;
     margin: auto;
-    padding: 20px;
+    padding: 10px;
+    text-align: center;
 }
   
 .remove-image {
