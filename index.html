@@ -14,12 +14,14 @@
       <h3 color="#3e3e3e">당신은 SM상? JYP상</h3>
         
       <div class="image-upload-wrap">
-        <div class="drag-text">
-          <h3>이미지를 첨부 또는 드래그</h3>
-  
+        <div class="image-upload-wrap">
+            <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
+            <div class="drag-text">
+                <img src="../../img/upload.svg" class="mt-5 pt-5 upload" alt="upload-image">
+                <h3 class="mb-5 pb-5 pt-4  upload-text">사진 드래그 또는 </h3>
+            </div>
         </div>
-          
-        <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
+
 
       </div>
       <div class="file-upload-content">
