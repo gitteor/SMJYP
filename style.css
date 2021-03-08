@@ -54,7 +54,7 @@ body {
 }
   
 .image-upload-wrap {
-      width: 90%;
+      width: 60%;
       margin: 0 auto;
       position: relative;
       object-fit: contain;
@@ -219,3 +219,15 @@ h1 {
     background-color: #f7b358;
 }
 
+
+@media screen and (max-width: 600px) {
+  .image-upload-wrap {
+      width: 90%;
+      margin: 0 auto;
+      position: relative;
+      object-fit: contain;
+      border-radius: 10px;
+      border: dashed 1.5px #35465d;
+      background-color: #ffffff;
+  }
+}
