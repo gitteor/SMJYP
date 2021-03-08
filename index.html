@@ -9,40 +9,33 @@
 
     
     <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    
     <div class="file-upload">
     
-      <h3 color="#3e3e3e">당신은 SM상? JYP상</h3>
-        
-      
-        <div class="image-upload-wrap">
-            <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
-            <div class="drag-text">
-                <img class="fas fa-file-upload" alt="upload-image">
-                <h3>사진 드래그 또는 클릭</h3>
-            </div>
-        </div>
-
-
+      <div class="image-upload-wrap">
+          <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
+          <div class="drag-text">
+              <img class="fas fa-file-upload" alt="upload-image">
+              <h3>사진 드래그 또는 클릭</h3>
+          </div>
       </div>
-      <div class="file-upload-content">
-        <img class="file-upload-image" id="face-image" src="#" alt="your image" />
-        <div class="image-title-wrap">
-          <button type="button" onclick="removeUpload()" class="remove-image">
-              <span class="image-title"></span>
-          </button> 
-        </div>
-          
-        <div class="label-container" id="label-container"></div>
-      
-      </div>
-
-      <div id="loading"></div>
-        
-      
         
     </div>
     
+    <div class="file-upload-content">
+      <img class="file-upload-image" id="face-image" src="#" alt="your image" />
+      <div class="image-title-wrap">
+          <button type="button" onclick="removeUpload()" class="remove-image">
+              <span class="image-title"></span>
+          </button> 
+      </div>
+          
+      <div class="label-container" id="label-container"></div>
+      
+    </div>
 
+    <div id="loading"></div>
+        
     
     <div id="webcam-container"></div>
     
