@@ -68,6 +68,7 @@ body {
 .image-upload-wrap:hover {
   background-color: #3e3e3e;
   border: 4px dashed #ffffff;
+  color: #ffffff;
 }
 
 .image-title-wrap {
